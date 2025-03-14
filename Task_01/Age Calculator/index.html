@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Age Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- main container -->
   <div class="container">
     <form class="input_elem">
       <label for="date-input">Enter your date of birth :</label>
@@ -14,9 +17,14 @@
       <input type="submit" value="Calculate Age" class="btn">
       <span class="results"></span>
     </form>
-    
-  </div>
 
+  </div>
+  <!-- sweetalert cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- custom file script -->
   <script src="ageCalculator.js"></script>
+
 </body>
+
 </html>

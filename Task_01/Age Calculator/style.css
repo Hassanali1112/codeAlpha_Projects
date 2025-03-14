@@ -1,20 +1,22 @@
+/* universal properties set */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* body styling */
 body {
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: #1d1d1d;
   color: #fff;
 }
 
+/* container styling */
 .container {
   padding: 1rem;
   width: 370px;
@@ -23,8 +25,10 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid rgb(128, 127, 127);
+  border-radius: 5px;
 }
 
+/* input element styling */
 .input_elem {
   width: 250px;
   font-size: 1.1rem;
@@ -43,6 +47,10 @@ body {
   color: #f3f0f0 !important;
   border-radius: 5px;
   font-weight: 500;
+  border: none;
+}
+.btn:hover{
+  background-color: rgb(35, 200, 35);
 }
 .results{
   font-size: .9rem;

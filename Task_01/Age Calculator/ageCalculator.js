@@ -1,5 +1,7 @@
+// target form element
 const formElem = document.querySelector("form");
 
+// add eventlistener to form element
 formElem.addEventListener("submit", (e) => {
   e.preventDefault();
   const dateOfBirth = new Date(document.querySelector("#date-input").value);
@@ -17,5 +19,8 @@ formElem.addEventListener("submit", (e) => {
     console.log(ageDays, ageMonths, ageYear);
 
     results.innerHTML = `Your age is ${ageYear} years, ${ageMonths} months and ${ageDays} days`;
+  } else {
+    Swal.fire("Select your age");
+
   }
 });
